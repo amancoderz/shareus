@@ -1,0 +1,254 @@
+:root {
+    --main-bg-color: #edf5fe;
+    --light-blue: #03a9f4;
+    --dark-blue: #028bca;
+  }
+    
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+/* navigation */
+.header{
+  max-width: 100vw;
+  width: 100vw;
+  height: 50px;
+  border-bottom: 1px;
+  border-top-color: rgb(239, 239, 239);
+  border-right-color: rgb(239, 239, 239);
+  border-left-color: rgb(239, 239, 239);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 0px;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+};
+
+.textlogo{
+  width: 200px;
+  height: 30px;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #0fb8ac;
+
+}
+.logo{
+  color: #0fb8ac;
+  width: 200px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+  .container {
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+section.download {
+    background: #fff;
+    width: 430px;
+    max-width: 90%;
+    border: 1px solid #9b9999;
+    border-radius: 25px;
+    /* box-shadow: 10px 10px 10px 5px #8f8f8f17; */
+    padding: 2rem;
+    text-align: center;
+}
+.download__icon {
+    height: 8rem;
+}
+.download__meta h4 {
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+.send-btn-container a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 40px;
+    margin-top: 15px;
+    background: #31beb4;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .send-btn-container a:hover {
+      background: #399891;
+  }
+
+
+
+  /* index.ejs page */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+  .card {
+    width: 100%;
+    max-height: 100%;
+    background-color: #ffffff;
+    padding: 10px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    
+  }
+
+
+/* file input taken css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.drag-area{
+  height: 250px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.drag-area.active{
+  border: 2px solid #000000;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #000000;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #000000;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #0fb8ac;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* .btnfix{
+    margin-left: 40px;
+} */
+
+
+  .drop_box {
+    margin: 10px 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  
+  .drop_box h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2e2e2e;
+  }
+  
+  .drop_box p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #a3a3a3;
+  }
+  
+  .btnfix {
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #222424;
+    border: none;
+    outline: 1px solid #0fb8ac;
+  }
+  .form input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  
+  .urlarea{
+    max-width: 90vw;
+    width: 45rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card, .urlarea{
+    margin: auto;
+  }
+
+  .urlmain{
+    width: 70%;
+    max-height: 40px;
+    min-height: 30px;
+    height: auto;
+    border: 1px solid #828282;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .urlopimg{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+  }
